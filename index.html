@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Employee Verification Progress</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Employee Verification Tracker</h2>
+
+    <form id="employeeForm">
+      <input type="text" id="empName" placeholder="Enter Employee Name" required>
+      <input type="text" id="empId" placeholder="Enter Employee ID" required>
+      <button type="submit">Check Progress</button>
+    </form>
+
+    <div id="progressContainer" class="hidden">
+      <h3 id="empDetails"></h3>
+      <ul id="stepsList"></ul>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
